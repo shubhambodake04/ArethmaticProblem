@@ -19,3 +19,8 @@ function thirdExpression(){
         echo $thirdResult
 }
 thirdExpression
+function fourthExpression(){
+        fourthResult=$(( ($firstNumber%$secondNumber+$thirdNumber) ))
+        echo $fourthResult
+}
+fourthExpression
