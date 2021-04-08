@@ -9,3 +9,8 @@ function firstExpression(){
 	echo $firstResult
 }
 firstExpression
+function secondExpression(){
+        secondResult=$(( ($firstNumber+$secondNumber*$thirdNumber) ))
+        echo $secondResult
+}
+secondExpression
