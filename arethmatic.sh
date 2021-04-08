@@ -10,7 +10,7 @@ function firstExpression(){
 }
 firstExpression
 function secondExpression(){
-        secondResult=$(( ($firstNumber+$secondNumber*$thirdNumber) ))
+        secondResult=$(( ($firstNumber*$secondNumber+$thirdNumber) ))
         echo $secondResult
 }
 secondExpression
